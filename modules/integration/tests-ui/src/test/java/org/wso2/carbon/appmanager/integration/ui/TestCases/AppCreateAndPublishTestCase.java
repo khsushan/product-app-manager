@@ -120,6 +120,7 @@ public class AppCreateAndPublishTestCase extends APPManagerIntegrationTest {
         super.cleanup();
         baseUtil.destroy();
         appmStore.logout();
+        appMPublisher.logout();
     }
 
 }
